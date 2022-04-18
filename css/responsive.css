@@ -1,0 +1,890 @@
+/*===========================
+extra-small device css starts
+=============================*/
+@media (max-width:575px){
+    /* nav part starts */
+    .navbar .navbar-toggler{
+        border-color:#006dea;
+        margin-right:1px;
+    }
+    .navbar-toggler:focus{
+        text-decoration: none;
+        outline: 0;
+        box-shadow:none;
+    }
+    .navbar .navbar-toggler i{
+        color:#00b3fd;
+    }
+    .navbar-light .navbar-nav .nav-link {
+        text-align: center;
+        background: rgba(255, 255, 255,0.9);
+        font-size: 18px;
+    }
+    /* nav part ends */
+
+    /* banner part starts */
+    #banner .side-text {
+        display:none;
+    }
+    #banner .banner-text p {
+        font-size: 14px;
+        line-height: 40px;
+    }
+    #banner .banner-text p:first-child {
+        width: 180px;
+        top: 115px;
+    }
+    #banner .banner-text p:nth-child(2) {
+        width: 257px;
+        top: 165px;
+        left: 39px;
+    }
+    #banner .banner-text p:nth-child(3) {
+        width: 177px;
+        top: 210px;
+        left: 89px;
+    }
+    #banner .banner-text p:nth-child(4) {
+        width: 227px;
+        top: 255px;
+        left: 67px;
+    }
+    #banner .banner-text input {
+        top: 306px;
+        left:39px;
+    }
+    #banner .banner-image::before,
+    #banner .banner-image::after,
+    #banner .banner-image .image::after,
+    #banner .banner-image .image::before
+    {
+        display: none;
+    }
+    #banner .banner-text .chat {
+        display:none;
+    }
+    #banner .banner-image .image {
+        width: 65%;
+        margin-top: 326px;
+        margin-left: 138px;
+    }
+    #banner .banner-details {
+        margin-top: 43px;
+    }
+    #banner .banner-details h3 {
+        font-size: 28px;
+        margin-left: 92px;
+    }
+    #banner .banner-details h2 {
+        font-size: 34px;
+    }
+    #banner .banner-details p{
+        margin-left: 92px;
+    }
+    #banner .banner-details .btn {
+        margin-top: -25px;
+        margin-left: -40px;
+        margin-bottom: 20px !important;
+    }
+    #banner .banner-details .btn a {
+        font-size: 16px;
+        width: 90px;
+    }
+    /* banner part ends */
+
+    /*about part starts */
+    #about .side-text {
+        display:none;
+    }
+    #about .about-image {
+        width:100%;
+        margin-left: -1px;
+        margin-top: -42px;
+    }
+    #about .about-image::before {
+        height: 0px;
+        width: 0px;
+    }
+    #about .about-image::after {
+        height: 0px;
+        width: 0px;
+    }
+    #about .about-text {
+        margin-top: -20px;
+    }
+    #about .about-text p {
+        margin-top: 18px;
+        margin-right: 6px;
+        /* margin-bottom: 20px !important; */
+    }
+    #about .about-text .about-icon {
+        margin-top: 0px;
+    }
+    #about .about-text .about-icon .icon-details {
+        width: 233px;
+    }
+    #about .about-text .about-icon .icon-details a .text {
+        padding-top: 10px;
+    }
+    /*about part ends */
+
+    /*service part starts */
+    #service .side-text {
+        display:none;
+    }
+    #service .service-main {
+        padding-top: 55px;
+        padding-bottom: 55px;
+    }
+    #service .design h3 {
+        margin-bottom: 25px !important;
+        font-size: 17px;
+    }
+    #service .design p {
+        width: 169px;
+    }
+    /*service part ends */
+
+    /*portfolio part starts */
+    #portfolio {
+        padding-top: 18px;
+        padding-bottom: 45px;
+    }
+    #portfolio ul li {
+        padding: 0 -5px;
+        color: var(--col8);
+        border-right: 1px solid #353535;
+        margin-bottom: 20px;
+        padding: 0px 6px;
+        font-size:13px;
+    }
+    #portfolio .gallery-main .gallery-item {
+        height: 270px;
+        margin-right: 13px;
+        margin-top: 20px;
+    }
+    #portfolio .gallery-menu ul {
+        margin-top: 48px;
+    }
+    #portfolio .gallery-main .gallery-item .gl-overlay .icon {
+        width: 30px;
+        height: 30px;
+        line-height: 30px;
+        margin-left: -48px;
+    }
+    #portfolio .gallery-main .gallery-item .gl-overlay h3 {
+        margin-top: 20px;
+        margin-left: -47px;
+        font-size: 16px;
+    }
+    #portfolio .gallery-main .gallery-item:hover .gl-overlay {
+        transform: scale(1.1);
+    }
+    #portfolio .btn {
+        padding: 8px 8px;
+        margin-left: 121px;  
+    }
+    #portfolio .btn a {
+        font-size: 15px;
+    }
+    /*portfolio part ends */
+
+    /* work part starts */
+    #work .side-text {
+        display:none;
+    }
+    #work .work-main .work-item {
+        width: 299px;
+        height: 356px;
+        margin-bottom: 20px;
+    }
+    #work .work-main .work-item .heading i{
+        font-size: 28px;
+    }
+    #work .work-main .work-item .heading h3 {
+        font-size: 28px;
+    }
+    #work .work-main .work-item .content p {
+        line-height: 22px;  
+    }
+    #work .work-main .work-item::after {
+        bottom: -326px;
+        right: -269px;
+    }
+    /* work part ends */
+
+    /* countdown part starts */
+    #countdown {
+        margin-bottom: 50px !important;
+        margin-top: -73px;
+    }
+    #countdown .main-item {
+        padding-bottom: 0px !important;
+    }
+    #countdown .main-item .question p {
+        font-size: 20px;
+        margin-left: 14px;
+    }
+    #countdown .main-item .question .btn{
+        margin-bottom:10px !important;
+    }
+    #countdown .main-item .question .btn a {
+        padding: 9px 9px;
+        margin-right: 22px;
+    }
+    #countdown .progress {
+        margin-left: -15px;
+        margin-top: 1px;
+    }
+    #countdown .progress .p-main{
+        margin-left: 80px;
+    }
+    #countdown .main-item {
+        padding-top: 40px;
+    }
+    #countdown .progress .p-main .icon i {
+        font-size: 37px;
+    }
+    #countdown .progress .p-main p {
+        margin-top: 0px;
+       
+    }
+    /* countdown part ends */
+
+    /* testimonial part starts */
+    #testimonial {
+        padding-top: 0px;
+        padding-bottom: 50px;
+    }
+    #testimonial .testimonial-item {
+        margin-left:40px;
+    }
+    #testimonial .testimonial-item .testimonial-text p {
+        margin-left: 21px;
+    }
+    #testimonial .testimonial-item .testimonial-text .ratings {
+        margin-left: 20px;
+    }
+    #testimonial .testimonial-item .testimonial-text h3 {
+        margin-left: 20px;
+        font-size: 17px;
+        margin-top:5px;
+    }
+    #testimonial .testimonial-item .testimonial-text p {
+        margin-top: 10px;
+        padding-bottom: 10px !important;
+        margin-left: 20px;
+    }
+    /* testimonial part ends */
+
+    /* brand part starts */
+    #brand h4 {
+        margin-top: -15px;
+    }
+    #brand .side-text {
+        display:none;
+    }
+    #brand h4{
+        font-size: 28px;
+    }
+    #brand .form form input {
+        width: 275px;
+        height: 40px;
+        margin-bottom: 20px !important;
+    }
+    #brand .form form .btn {
+        height: 40px;
+        margin-left: 5px;
+    }
+    #brand .brand-item {
+        padding: 30px 0;
+    }  
+    #brand .brand-item .brand {
+        border-right:none;
+        border-bottom: none;
+        height: 80px;
+    }
+    #brand .brand-item .brand img {
+        margin-left: 57px;
+        width: 70%;
+    }
+    /* brand part ends */
+
+    /* footer part starts */
+    #footer {
+        padding-top: 45px;
+    }
+    #footer .side-text {
+        display:none;
+    }
+    #footer p {
+        padding: 20px 0px;
+        margin-left: 22px;
+    }
+    #footer .footer-main::after,
+    #footer .footer-main::before
+    {
+        display:none;
+    }
+    #footer .footer-contact a {
+        font-size: 18px;
+    }
+    #footer .footer-copy a{
+        font-size: 14px;
+    }
+    #footer .message {
+        display:none;
+    }
+}
+/*==========================
+extra-small device css ends
+===========================*/
+
+/*=======================
+small device css starts
+=========================*/
+@media (min-width:575px) and (max-width:767px){
+    /* nav part starts */
+    .navbar .navbar-toggler{
+        border-color:#006dea;
+        margin-right:-14px;
+    }
+    .navbar-toggler:focus{
+        text-decoration: none;
+        outline: 0;
+        box-shadow:none;
+    }
+    .navbar .navbar-toggler i{
+        color:#00b3fd;
+    }
+    .navbar-light .navbar-nav .nav-link {
+        text-align: center;
+        width: 27%;
+        margin-left: 386px;
+        font-size: 16px;
+        background: rgba(255, 255, 255,0.6);
+    }
+    /* nav part ends */
+
+    /* baner part starts */
+    #banner .side-text {
+        display:none;
+    }
+    #banner .banner-text p:first-child {
+        left: 24px;
+    }
+    #banner .banner-text p:nth-child(2) {
+        left: 24px;
+    }
+    #banner .banner-text p:nth-child(3) {
+        left: 24px;
+    }
+    #banner .banner-text p:nth-child(4) {
+        left: 24px;
+    }
+    #banner .banner-text input{
+        left: 24px;
+    }
+    #banner .banner-image .image img {
+        margin-left: 15px;
+    }
+    #banner .banner-image .image{
+        width: 65%;
+        margin-left: 117px;
+    }
+    #banner .banner-image::before,
+    #banner .banner-image::after,
+    #banner .banner-image .image::after,
+    #banner .banner-image .image::before
+    {
+        display: none;
+    }
+    #banner .banner-text .chat {
+        display:none;
+    }
+    #banner .banner-details {
+        margin-top: 24px;
+        text-align: center;
+    }
+    #banner .banner-details h3 {
+        margin-left: 28px;
+    }
+    #banner .banner-details p{
+        margin-left: 28px;
+    }
+    #banner .banner-details h2 {
+        margin-left: 42px;
+    }
+    #banner .banner-details .btn a {
+        width: 91px;
+        margin-left: 8px;
+    }
+    /* baner part ends */
+
+    /*about part starts */
+    #about .side-text {
+        display:none;
+    }
+    #about .about-image {
+        margin-left: 45px;
+        margin-top: -42px;
+    }
+    #about .about-text{
+        margin-top: 30px;
+    }
+    #about .about-text p {
+        margin-top: 18px;
+        margin-right: 6px;
+        margin-bottom: 20px !important;
+    }
+    #about .about-text .about-icon {
+        margin-top: 0px;
+    }
+    #about .about-text .about-icon .icon-details {
+        width: 233px;
+    }
+    /*about part ends */
+
+    /*service part starts */
+    #service .side-text {
+        display:none;
+    }
+    #service .service-main {
+        padding-top: 55px;
+        padding-bottom: 55px;
+    }
+    #service .design h3 {
+        margin-bottom: 25px !important;
+        font-size: 17px;
+    }
+    #service .design p {
+        width: 169px;
+    }
+    /*service part ends */
+
+    /*portfolio part starts */
+    #portfolio {
+        padding-top: 80px;
+        padding-bottom: 80px;
+    }
+    #portfolio ul li {
+        padding: 0px 8px;
+        font-size: 14px;
+        margin-bottom: 20px;
+    }
+    #portfolio .gallery-item {
+        height: 270px;
+        margin-right: 13px;
+        margin-top: 55px;
+    }
+    #portfolio ul {
+        margin-top: 48px;
+    }
+    #portfolio .gallery-main .gallery-item .gl-overlay .icon {
+        width: 40px;
+        height: 40px;
+        line-height: 40px;
+    }
+    #portfolio .gallery-main .gallery-item .gl-overlay h3 {
+        font-size: 13px;
+    }
+    #portfolio .gallery-main .gallery-item:hover .gl-overlay {
+        transform: scale(0.7);
+    }
+    #portfolio .btn {
+        padding: 8px 15px;
+        margin-left: 238px;
+    }
+    /*portfolio part ends*/
+
+    /* work part starts */
+    #work .side-text {
+        display:none;
+    }
+    #work h4{
+        margin-top: -26px;
+    }
+    #work .work-main .work-item {
+        width: 237px;
+        height: 356px;
+        margin-right: 45px;
+    }
+    #work .work-main .work-item::after {
+        bottom: -330px;
+        right: -352px;
+    }
+    #work .work-main .work-item .heading i{
+        font-size: 28px;
+    }
+    #work .work-main .work-item .heading h3 {
+        font-size: 28px;
+    }
+    #work .work-main .work-item .content h5 {
+        padding-top: 20px;
+        padding-bottom: 0px;
+        margin-bottom: 0px;
+    }
+    #work .work-main .work-item .content h4 {
+        margin-top: 20px;
+    }
+    #work .work-main .work-item .content p {
+        line-height: 22px;  
+        margin-top: 20px;
+    }
+    #work .work-main .work-item {
+        width: 386px;
+        height: 365px;
+        margin-right: 45px;
+        margin-bottom: 25px;
+        margin-left: 134px;
+    }
+    /* work part ends */
+
+    /* countdown part starts */
+    #countdown {
+        margin-bottom: 70px !important;
+    }
+    #countdown .main-item {
+        padding-bottom: 0px !important;
+    }
+    #countdown .main-item .question p {
+        font-size: 18px;
+    }
+    #countdown .main-item .question a {
+        padding: 8px 12px;
+        margin-right: 13px;
+        display: inline-block;
+        font-size: 17px;
+    }
+    #countdown .main-item .question .btn a {
+        padding: 1px 2px;
+        margin-right: 10px;
+    }
+    #countdown .main-item .question a:first-of-type {
+        margin-bottom: 10px !important;
+        margin-left: 0px;
+    }
+    #countdown .progress {
+        padding-top: 0px;
+        padding-bottom: 184px;
+    }
+    #countdown .progress .p-main p {
+        margin-top: 20px;
+        text-align: center;
+    }
+    #countdown .progress .p-main .icon i {
+        font-size: 40px;
+    }
+    /* countdown part ends */
+
+    /* testimonial part starts */
+    #testimonial {
+        padding-top: 0px;
+        padding-bottom: 0px;
+    }
+    #testimonial h4 {
+        margin-bottom: 50px !important;
+    }
+    #testimonial .test-item .test-text {
+        display: none;
+    }
+    #testimonial .test-item {
+        margin-right: 34px;
+    }
+    /* testimonial part ends */
+
+    /* brand part starts */
+    #brand h4{
+        margin-top: -65px;
+    }
+    #brand  .side-text {
+        display:none;
+    }
+    #brand .form  form input {
+        height: 44px;
+        width: 165px;
+    }
+    #brand .brand-item {
+        padding: 40px 0;
+    }
+    #brand .brand-item .brand {
+        border-right:none;
+        border-bottom: none;
+        width: 260px;
+        height: 75px;
+    }
+    /* brand part ends */
+
+    /* footer part starts */
+    #footer .side-text {
+        display:none;
+    }
+    #footer p {
+        padding: 30px 23px;
+    }
+    #footer .footer-main::after,
+    #footer .footer-main::before
+    {
+        display:none;
+    }
+    #footer .message {
+        display:none;
+    }
+    /* footer part ends */
+}
+/*=======================
+small device css ends
+=========================*/
+
+/*=======================
+medium device css starts
+=========================*/
+@media (min-width:768px) and (max-width:991px){
+    /* nav part starts */
+    .navbar .navbar-toggler{
+        border-color:#006dea;
+        margin-right:-14px;
+    }
+    .navbar-toggler:focus{
+        text-decoration: none;
+        outline: 0;
+        box-shadow:none;
+    }
+    .navbar .navbar-toggler i{
+        color:#00b3fd;
+    }
+    .navbar-light .navbar-nav .nav-link {
+        text-align: center;
+        width: 50%;
+        margin-left: 125px;
+        font-size: 18px;
+    }
+    /* nav part ends */
+
+    /*banner part starts */
+    #banner .side-text {
+        display:none;
+    }
+    #banner .banner-image .image img {
+        margin-top: -106px;
+        margin-left: 130px;
+    }
+    #banner .banner-image::before,
+    #banner .banner-image::after,
+    #banner .banner-image .image::after,
+    #banner .banner-image .image::before
+    {
+        display: none;
+    }
+    #banner .banner-text .chat  {
+        display:none;
+    }
+    #banner .banner-details {
+        margin-top: -252px;
+    }
+    #banner .banner-details h3 {
+        font-size: 30px;
+        margin-left: 82px;
+    }
+    #banner .banner-details h2 {
+        font-size: 35px;
+    }
+    #banner .banner-details p{
+        margin-left: 82px;
+    }
+    #banner .banner-details .btn {
+        margin-left: -57px;
+    }
+    #banner .banner-details .btn a {
+        width: 100px;
+    }
+    /*banner part starts */
+
+    /*about part starts */
+    #about .side-text {
+        display:none;
+    }
+    #about .about-image {
+        margin-left: -45px;
+        margin-top: 78px;
+    }
+    #about .about-text p {
+        margin-top: 45px;
+        margin-right: 2px;
+    }
+    #about .about-text .about-icon {
+        margin-top: 0px;
+    }
+    /*about part ends */
+
+    /*service part starts */
+    #service .side-text {
+        display:none;
+    }
+    #service .service-main {
+        padding-top: 55px;
+        padding-bottom: 55px;
+    }
+    #service .design h3 {
+        margin-bottom: 25px !important;
+        font-size: 22px;
+    }
+    #service .design p {
+        width: 185px;
+    }
+    /*service part ends */
+
+    /*portfolio part starts */
+    #portfolio {
+        padding-top: 80px;
+        padding-bottom: 80px;
+    }
+    #portfolio ul li {
+        padding: 0 8px;
+    }
+    #portfolio .gallery-main .gallery-item {
+        height: 270px;
+        margin-right: 13px;
+        margin-top: 55px;
+    }
+    #portfolio .gallery-main .gallery-item .gl-overlay h3{
+        font-size: 17px;
+    }
+    #portfolio .gallery-main .gallery-item:hover .gl-overlay{
+        transform: scale(0.9);
+    }
+    #portfolio .btn {
+        padding: 10px 15px;
+        margin-left: 321px;  
+    }
+    /* portfolio part ends */
+
+    /* work part starts */
+    #work .side-text {
+        display:none;
+    }
+    #work .work-main {
+        margin-bottom: 80px;
+    }
+    #work .work-main .work-item .heading i{
+        font-size: 30px;
+    }
+    #work .work-main .work-item .heading h3 {
+        font-size: 28px;
+    }
+    #work .work-main .work-item .content p {
+        line-height: 22px;  
+    }
+    #work .work-main .work-item {
+        width: 320px;
+        height: 356px;
+        margin-left: 20px;
+    }
+    #work .work-main .work-item::after {
+        bottom: -334px;
+        right: -295px;
+    }
+    /* work part ends */
+
+    /* countdown part starts */
+    #countdown {
+        margin-bottom: 80px !important;
+    }
+    #countdown .main-item {
+        padding-bottom: 0px !important;
+    }
+    #countdown .main-item .question p{
+        font-size:21px;
+    }
+    #countdown .main-item .question a {
+        padding: 8px 12px;
+        margin-right: 13px;
+        display: inline-block;
+        font-size: 17px;
+    }
+    #countdown .main-item .question a:first-of-type {
+        margin-left: -13px;
+        margin-bottom: 11px !important;
+    }
+    #countdown .progress {
+        padding-top: 0px;
+        padding-bottom: 184px;
+    }
+    #countdown .progress .p-main p {
+        margin-top: 20px;
+        text-align: center;
+    }
+    #countdown .progress .p-main .icon i {
+        font-size: 60px;
+    }
+    /* countdown part ends */
+
+    /* testimonial part starts */
+    #testimonial {
+        padding-top: 0px;
+        padding-bottom: 80px;
+    }
+    #testimonial h4 {
+        margin-bottom: 50px !important;
+    }
+    #testimonial .testimonial-item .testimonial-text {
+        width: 180px;
+        padding: 5px;
+    }
+    #testimonial .testimonial-item .testimonial-text p {
+        font-size: 17px;
+        line-height: 26px;
+        margin-top: 0px !important;
+    }
+    #testimonial .testimonial-item .testimonial-text .ratings {
+        margin-top: -2px;
+        margin-bottom: 15px !important;
+    }
+    #testimonial .test-item .test-text h3 {
+        font-size: 18px;
+    }
+    #testimonial .testimonial-item .testimonial-text p:last-child {
+        font-size: 15px;
+        margin-left: -8px;
+        margin-top: 10px;
+    }
+    /* testimonial part ends */
+
+    /* brand part starts */
+    #brand .side-text {
+        display:none;
+    }
+    #brand .form form input {
+        height: 44px;
+        width: 255px;
+    }
+    #brand .brand-item {
+        padding: 40px 0;
+    }
+    #brand .brand-item .brand {
+        border-right:none;
+        border-bottom: none;
+        height: 90px;
+    }
+    /* brand part ends */
+
+    /* footer part starts */
+    #footer .side-text {
+        display:none;
+    }
+    #footer p {
+        padding: 20px 72px;
+    }
+    #footer .footer-main::after,
+    #footer .footer-main::before
+    {
+        display:none;
+    }
+    #footer .message {
+        right: 0px;
+    }
+    /* footer part ends */
+}
+/*=======================
+medium device css ends
+=========================*/
